@@ -1,0 +1,159 @@
+body, p, section, h1, h2, h3, h4, h5, h6, dl, dt, dd, ol, ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  color: #000;
+  font: 16px 'Literata', serif;
+  margin: 0;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+a {
+  color: #77b;
+}
+
+#content {
+  align-items: stretch;
+  display: flex;
+  margin: 0 auto;
+  width: 75%;
+}
+
+aside {
+  background: rgba(187, 187, 255, 0.2);
+  font-family: 'Lato', sans-serif;
+  flex: 1 0 300px;
+  min-height: 400px;
+  padding: 2.5rem 1.5rem;
+}
+
+.avatar-wrapper {
+  margin-bottom: 0.25rem;
+  text-align: center;
+}
+
+.avatar {
+  border: 1px solid rgba(187, 187, 255, 0.7);
+  max-width: 75%;
+}
+
+.contacts {
+  line-height: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.knowledge {
+  margin-top: 1.5rem;
+}
+.knowledge ul {
+  margin: 0.75rem -2px -2px;
+}
+.knowledge li {
+  background: rgba(119, 119, 187, 0.2);
+  border-radius: 3px;
+  display: inline-block;
+  margin: 2px 1px;
+  padding: 0.125rem 0.25rem;
+}
+
+.content-body {
+  flex: 0 1 100%;
+  font-size: 1.125rem;
+  min-height: 300px;
+  padding: 1rem 2rem 3rem;
+}
+
+.experience {
+  font-size: 1rem;
+}
+.experience h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+.experience h4 {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.experience .period {
+  color: #555;
+  font-size: 0.875rem;
+  margin-bottom: 0.25rem;
+  text-transform: uppercase;
+}
+.experience-item + .experience-item {
+  margin-top: 2rem;
+}
+.techs {
+  font: 0.875rem 'Lato', sans-serif;
+  margin: 0.25rem -2px -2px;
+}
+.techs li {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  display: inline-block;
+  margin: 2px 1px;
+  padding: 0.125rem 0.25rem;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+.work-label {
+  color: rgba(0, 0, 0, 0.7);
+  text-transform: uppercase;
+}
+
+.intro ul {
+  margin-bottom: 1rem;
+}
+.intro li::before {
+  color: #77b;
+  content: '+';
+  padding-right: 0.5rem;
+}
+
+.content-body p + p {
+  margin-top: 1rem;
+}
+
+.content-body section + section {
+  margin-top: 2.5rem;
+}
+.contact-info h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.tc {
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  #content {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  aside {
+    flex: 0 0 auto;
+    padding: 2.5rem 1.5rem;
+  }
+
+  .avatar {
+    max-width: 30%;
+  }
+}

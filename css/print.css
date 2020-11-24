@@ -1,0 +1,19 @@
+#content {
+  border: 1px solid rgba(187, 187, 255, 0.5);
+  width: 100%;
+}
+
+aside {
+  flex: 0 0 200px;
+  padding: 2rem 0.75rem;
+}
+
+.content-body {
+  padding: 1rem 2rem 2rem;
+}
+h1 {
+  font-size: 1.5rem;
+}
+.work-label {
+  font-size: 1.125rem;
+}

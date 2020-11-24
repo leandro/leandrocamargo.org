@@ -1,0 +1,119 @@
+body {
+  background-image: url(../images/bg.jpg);
+}
+
+.c-container, .h-container, footer {
+  margin: 0 auto;
+  width: 1020px;
+}
+.h-container {
+  position: relative;
+}
+.home-header {
+  float: left;
+  height: 400px;
+}
+.home-logo-container {
+  padding: 0 48px 0 49px;
+  width: 350px;
+}
+.home-logo-container a {
+  background: url(../images/bananada-logo.png) no-repeat;
+  display: block;
+  height: 375px;
+  width: 253px;
+}
+.home-medias {
+  float: right;
+  padding-top: 20px;
+  width: 670px;
+}
+.home-medias .medias-box {
+  border: 1px solid #000;
+  height: 378px;
+  position: relative;
+}
+.home-medias .medias-box .heading {
+  background: url(../images/heading-bg.png) no-repeat;
+  height: 59px;
+  left: 0;
+  padding: 9px 0 0 12px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.home-medias .heading h3 {
+  background: url(../images/h-atracoes.png) no-repeat;
+  height: 32px;
+  width: 101px;
+}
+.menu {
+  height: 35px;
+  left: 0;
+  margin-top: 20px;
+  padding: 0 11px 0 12px;
+  position: absolute;
+  top: 400px;
+}
+.menu li {
+  float: left;
+  height: 100%;
+  margin: 0 17px;
+}
+.menu a {
+  padding: 0 10px;
+}
+.menu li a:hover {
+  background-color: #fcd21d;
+}
+.body-content {
+  margin-top: 80px;
+}
+.lineup-video {
+  background: #fff;
+  padding: 10px;
+}
+.h-floating {
+  left: 10px;
+  position: absolute;
+  top: 0;
+}
+.row {
+  clear: both;
+}
+.row > * {
+  float: left;
+}
+.col-1 {
+  margin-right: 20px;
+  width: 327px;
+}
+.col-1:last-child {
+  margin-right: 0;
+  width: 326px;
+}
+.col-2 {
+  margin-right: 20px;
+  width: 670px;
+}
+.col-2:last-child {
+  margin-right: 0;
+}
+.l-pt-20 {
+  padding-top: 20px;
+}
+.l-mt-20 {
+  margin-top: 20px;
+}
+.l-p-10 {
+  padding: 10px;
+}
+.l-pt-35 {
+  padding-top: 35px;
+}
+.l-h-400 {
+  height: 400px;
+}
+.l-hide {
+  display: none;
+}

@@ -1,0 +1,188 @@
+.home-header {
+  background: #fcd21d;
+  height: 60px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+}
+.home-header + div {
+  margin-top: 85px;
+}
+.header-shadow {
+  background: inherit;
+  box-shadow: 0 3px 5px -3px #000;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.home-logo-container {
+  height: 100%;
+  margin-right: 60px;
+}
+.home-logo-container a {
+  background: url(../images/bananada-logo-s.png) no-repeat;
+  display: block;
+  height: 52px;
+  margin: 0 auto;
+  position: relative;
+  top: 17px;
+  width: 198px;
+}
+.hamburguer-c {
+  background: #333;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 60px;
+}
+#hamburguer {
+  width: 20px;
+  height: 18px;
+  position: relative;
+  margin: 21px 20px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+#hamburguer span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: #fff;
+  border-radius: 3px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+#hamburguer span:nth-child(1) {
+  top: 0px;
+}
+#hamburguer span:nth-child(2) {
+  top: 7px;
+}
+#hamburguer span:nth-child(3) {
+  top: 14px;
+}
+#hamburguer.open span:nth-child(1) {
+  top: 7px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+#hamburguer.open span:nth-child(2) {
+  opacity: 0;
+  left: -20px;
+}
+
+#hamburguer.open span:nth-child(3) {
+  top: 7px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+.menu {
+  border-bottom: 3px solid #000;
+  bottom: -3px;
+  left: 0;
+  padding: 10px 0;
+  position: absolute;
+  transform: translateY(-265px);
+  transition: .4s ease-in-out;
+  width: 100%;
+  z-index: -2;
+}
+.menu.open {
+  transform: translateY(265px);
+  transition: .4s ease-in-out;
+}
+.menu li {
+  height: 35px;
+}
+.menu a {
+  padding: 0 10px;
+}
+.c-container {
+  margin: 0 10px;
+}
+.home-medias {
+  margin-top: 20px;
+  padding: 0 10px;
+}
+.color-box {
+  margin: 0 -10px;
+  padding: 10px;
+}
+.info-box {
+  margin: 20px 0;
+}
+.sympla-container {
+  height: 312px;
+}
+.sm-hide {
+  display: none;
+}
+
+
+@media only screen and (max-width: 320px) {
+  body {
+    background-image: url(../images/bg-320.jpg);
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 360px) {
+  body {
+    background-image: url(../images/bg-360.jpg);
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 400px) {
+  body {
+    background-image: url(../images/bg-400.jpg);
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 440px) {
+  body {
+    background-image: url(../images/bg-440.jpg);
+  }
+}
+@media only screen and (min-width: 441px) and (max-width: 610px) {
+  body {
+    background-image: url(../images/bg-610.jpg);
+  }
+}
+@media only screen and (min-width: 611px) and (max-width: 720px) {
+  body {
+    background-image: url(../images/bg-720.jpg);
+  }
+}
+@media only screen and (min-width: 721px) and (max-width: 768px) {
+  body {
+    background-image: url(../images/bg-768.jpg);
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 800px) {
+  body {
+    background-image: url(../images/bg-800.jpg);
+  }
+}
